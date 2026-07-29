@@ -44,6 +44,6 @@ print(area)
 name,location,age = 'codegnan','Hyd',7
 print(name)
 print(location)
-print(age)
+print(age)6
 
  
