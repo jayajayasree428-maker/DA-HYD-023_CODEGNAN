@@ -40,9 +40,4 @@ for mail in email:
     print(mail.split("@")[1])
 
 '''
-#Write a program "salaar","Bahubali","KGF"
-movies = ["salaar","Bahubali","KGF"]
-sno = 1
-for movie in movies:
-    print(sno,".",movie)
-    sno = sno + 1
+
