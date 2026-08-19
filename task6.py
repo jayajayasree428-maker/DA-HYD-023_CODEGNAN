@@ -80,17 +80,14 @@ for student in students:
     print(student)
 
 
-#
+#Course student comparison
 python_students = {"Asha", "Rahul", "John", "Meera"}
 da_students = {"Rahul", "Meera", "Arun"}
-
 
 both_courses = python_students.union(da_students)
 both = python_students.intersection(da_students)
 
-
 only_python = python_students.difference(da_students)
-
 only_one = python_students.symmetric_difference(da_students)
 
 is_subset = da_students.issubset(python_students)
@@ -100,18 +97,14 @@ is_disjoint = python_students.isdisjoint(da_students)
 print("Students in both courses:")
 for student in both_courses:
     print(student)
-
 print("\nStudents learning both Python and DA:")
 for student in both:
     print(student)
-
 print("\nStudents learning only Python:")
 for student in only_python:
     print(student)
-
 print("\nStudents learning only one course:")
 for student in only_one_course:
-
 if is_subset:
     print("\nDA students are a subset of Python students: True")
 else:
